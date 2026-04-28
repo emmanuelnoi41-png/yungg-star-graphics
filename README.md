@@ -1,1 +1,7 @@
-# Yungg-Star-Graphics
+# Yungg-Star-Graphics{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
